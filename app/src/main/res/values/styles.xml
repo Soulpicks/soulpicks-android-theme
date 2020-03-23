@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+~ Copyright (C) 2019 The Android Open Source Project
+~
+~ Licensed under the Apache License, Version 2.0 (the "License");
+~ you may not use this file except in compliance with the License.
+~ You may obtain a copy of the License at
+~
+~      http://www.apache.org/licenses/LICENSE-2.0
+~
+~ Unless required by applicable law or agreed to in writing, software
+~ distributed under the License is distributed on an "AS IS" BASIS,
+~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+~ See the License for the specific language governing permissions and
+~ limitations under the License.
+-->
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!--Components-->
+
+    <style name="Widget.Soulpicks.Button" parent="Widget.MaterialComponents.Button">
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <style name="Widget.Soulpicks.TextButton" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <style name="Widget.Soulpicks.OutlinedButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <style name="Widget.Soulpicks.TabLayout" parent="Widget.MaterialComponents.TabLayout">
+        <item name="tabTextAppearance">@style/TextAppearance.Soulpicks.TabLayout</item>
+    </style>
+
+    <style name="TextAppearance.Soulpicks.TabLayout" parent="@style/TextAppearance.MaterialComponents.Button">
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <style name="Widget.Soulpicks.Chip" parent="Widget.MaterialComponents.Chip.Action">
+        <item name="checkedIconEnabled">false</item>
+        <item name="chipIconSize">16dp</item>
+        <item name="chipStrokeWidth">1dp</item>
+        <item name="checkedIconVisible">false</item>
+        <item name="chipStrokeColor">@color/color_chip_stroke</item>
+        <item name="chipBackgroundColor">@color/color_chip</item>
+        <item name="enforceTextAppearance">true</item>
+        <item name="closeIconVisible">false</item>
+        <item name="android:textColor">@color/color_chip_text</item>
+        <item name="iconStartPadding">4dp</item>
+        <item name="iconEndPadding">-4dp</item>
+    </style>
+
+    <style name="Widget.Soulpicks.SearchView" parent="Widget.AppCompat.SearchView">
+        <item name="android:iconifiedByDefault">false</item>
+        <item name="iconifiedByDefault">false</item>
+        <item name="measureWithLargestChild">true</item>
+        <item name="android:gravity">left</item>
+    </style>
+
+
+    <!-- Bottom Navigation -->
+    <style name="Widget.Soulpicks.BottomNavigation" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="itemTextColor">@color/color_bottomnav_text</item>
+        <item name="itemIconTint">@color/color_bottomnav_icons</item>
+        <item name="labelVisibilityMode">labeled</item>
+    </style>
+
+    <!--Bottom Sheets-->
+    <style name="ThemeOverlay.Soulpicks.BottomSheetDialog" parent="ThemeOverlay.MaterialComponents.Dialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowAnimationStyle">@style/Animation.MyTheme.BottomSheet.Modal</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="bottomSheetStyle">@style/Widget.MyTheme.BottomSheet.Modal</item>
+        <item name="android:navigationBarColor">?attr/colorSurface</item>
+        <item name="android:navigationBarDividerColor" tools:ignore="NewApi">@android:color/transparent</item>
+    </style>
+
+
+    <style name="Widget.MyTheme.BottomSheet.Modal" parent="Widget.MaterialComponents.BottomSheet.Modal">
+        <item name="shapeAppearanceOverlay">?attr/shapeAppearanceLargeComponent</item>
+    </style>
+
+    <!--Navigation Drawer-->
+    <style name="Widget.Soulpicks.NavigationView" parent="Widget.MaterialComponents.NavigationView">
+        <item name="itemTextAppearance">?attr/textAppearanceBody2</item>
+    </style>
+
+
+    <!-- CUSTOM FAB STYLING -->
+    <style name="FabMenuStyle">
+        <item name="menu_do_reveal">true</item>
+        <item name="menu_progress_width">2dp</item>
+        <item name="menu_icon">@drawable/ic_fabmenu_icon</item>
+        <item name="menu_progress_color">@color/primary</item>
+        <item name="menu_progress_showBackground">false</item>
+        <item name="menu_reveal_color">@color/gray</item>
+        <item name="menu_colorNormal">@color/white</item>
+        <item name="menu_colorPressed">@color/steel</item>
+        <item name="menu_colorRipple">@color/primary200</item>
+        <item name="menu_radial_layoutAngle">180</item>
+        <item name="menu_radial_angleOffset">-90</item>
+        <item name="menu_showShadow">false</item>
+        <item name="android:elevation">4dp</item>
+    </style>
+
+    <style name="FabStyle">
+        <item name="fab_colorNormal">@android:color/white</item>
+        <item name="fab_colorPressed">@color/white</item>
+        <item name="fab_colorRipple">@color/gray</item>
+        <item name="fab_progress_width">3dp</item>
+        <item name="fab_progress_color">@color/primary</item>
+        <item name="fab_progress_showBackground">false</item>
+        <item name="fab_showShadow">false</item>
+    </style>
+
+</resources>
