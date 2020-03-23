@@ -91,7 +91,7 @@
 
 
     <!-- CUSTOM FAB STYLING -->
-    <style name="FabMenuStyle">
+    <style name="Widget.Soulpicks.AdvancedFabMenuStyle" parent="">
         <item name="menu_do_reveal">true</item>
         <item name="menu_progress_width">2dp</item>
         <item name="menu_icon">@drawable/ic_fabmenu_icon</item>
@@ -107,7 +107,12 @@
         <item name="android:elevation">4dp</item>
     </style>
 
-    <style name="FabStyle">
+    <style name="Widget.Soulpicks.AdvancedFabMenuStyle.Linear">
+      <item name="menu_backgroundColor">#66000000</item>
+    </style>
+
+
+    <style name="Widget.Soulpicks.AdvancedFabStyle" parent="">
         <item name="fab_colorNormal">@android:color/white</item>
         <item name="fab_colorPressed">@color/white</item>
         <item name="fab_colorRipple">@color/gray</item>
