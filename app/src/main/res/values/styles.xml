@@ -19,6 +19,9 @@
 
     <!--Components-->
 
+    <style name="Widget.Soulpicks.Switch" parent="Widget.MaterialComponents.CompoundButton.Switch">
+    </style>
+
     <style name="Widget.Soulpicks.Button" parent="Widget.MaterialComponents.Button">
         <item name="textAllCaps">false</item>
     </style>
@@ -110,7 +113,6 @@
     <style name="Widget.Soulpicks.AdvancedFabMenuStyle.Linear">
       <item name="menu_backgroundColor">#66000000</item>
     </style>
-
 
     <style name="Widget.Soulpicks.AdvancedFabStyle" parent="">
         <item name="fab_colorNormal">@android:color/white</item>

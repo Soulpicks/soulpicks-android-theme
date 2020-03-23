@@ -90,6 +90,7 @@
         <item name="bottomNavigationStyle">@style/Widget.Soulpicks.BottomNavigation</item>
         <item name="searchViewStyle">@style/Widget.Soulpicks.SearchView</item>
         <item name="android:searchViewStyle">@style/Widget.Soulpicks.SearchView</item>
+        <item name="switchStyle">@style/Widget.Soulpicks.Switch</item>
     </style>
 
 

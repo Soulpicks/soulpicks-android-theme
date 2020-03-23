@@ -55,6 +55,10 @@
     <color name="gray">#d7d7d7</color>
     <color name="shimmer">@color/gray</color>
 
+    <!-- marker colors -->
+    <color name="ownPlace">#fc6180</color>
+    <color name="othersPlace">#2bd3d8</color>
+    <color name="selectedPlace">@color/primary</color>
 
     <color name="primary900">#23063F</color>
     <color name="primary800">#330B51</color>
@@ -96,8 +100,6 @@
     <color name="onBackground">@color/black</color>
     <color name="onSurface">@color/black</color>
     <color name="onError">@color/white</color>
-
-
     <color name="chipBorder">@color/black</color>
 
 
