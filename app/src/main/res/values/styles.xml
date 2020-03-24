@@ -44,7 +44,6 @@
     </style>
 
 
-
     <style name="Widget.Soulpicks.TabLayout" parent="Widget.MaterialComponents.TabLayout">
         <item name="tabTextAppearance">@style/TextAppearance.Soulpicks.TabLayout</item>
     </style>
@@ -71,6 +70,7 @@
         <item name="android:textAppearance">@style/TextAppearance.Soulpicks.Chip.Button</item>
         <item name="chipEndPadding">16dp</item>
         <item name="chipStartPadding">16dp</item>
+        <item name="chipIconTint">@color/iconColor</item>
         <item name="android:gravity">center_vertical|start</item>
     </style>
 
@@ -153,5 +153,14 @@
         <item name="fab_progress_showBackground">false</item>
         <item name="fab_showShadow">false</item>
     </style>
+
+    <!-- DIALOGS -->
+
+    <style name="Theme.Soulpicks.SoulpicksAlertDialog" parent="Theme.MaterialComponents.Dialog.Alert">
+        <item name="android:windowTitleStyle">@style/TextAppearance.Soulpicks.AlertDialog.Title</item>
+        <item name="android:textAppearanceMedium">@style/TextAppearance.Soulpicks.AlertDialog.Text</item>
+    </style>
+
+
 
 </resources>

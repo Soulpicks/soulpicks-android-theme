@@ -101,6 +101,7 @@
     <color name="onSurface">@color/black</color>
     <color name="onError">@color/white</color>
     <color name="chipBorder">@color/black</color>
+    <color name="iconColor">@color/steel</color>
 
 
 </resources>
