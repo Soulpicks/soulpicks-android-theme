@@ -18,7 +18,10 @@
 
     <!--Components-->
 
-    <style name="Widget.Soulpicks.Switch" parent="Widget.MaterialComponents.CompoundButton.Switch"></style>
+    <style name="Widget.Soulpicks.Switch" parent="Widget.MaterialComponents.CompoundButton.Switch" />
+
+    <style name="Widget.Soulpicks.Checkbox" parent="Widget.MaterialComponents.CompoundButton.CheckBox" />
+
 
     <style name="Widget.Soulpicks.Button" parent="Widget.MaterialComponents.Button">
         <item name="textAllCaps">false</item>
@@ -31,7 +34,6 @@
     <style name="Widget.Soulpicks.OutlinedButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
         <item name="textAllCaps">false</item>
     </style>
-
 
     <style name="Widget.Soulpicks.OutlinedButton.Checkable">
         <item name="android:textColor">@color/color_materialbuttoncheckable_text_selector</item>
