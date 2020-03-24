@@ -52,6 +52,14 @@
           android:text="@string/chip_action_title" />
 
         <com.google.android.material.chip.Chip
+            style="@style/TextAppearance.Soulpicks.Chip.Button"
+            android:id="@+id/chip_button"
+            android:checkable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chip_button_title" />
+
+        <com.google.android.material.chip.Chip
           style="@style/Widget.MaterialComponents.Chip.Filter"
           android:id="@+id/chip_filter"
           android:layout_width="wrap_content"
