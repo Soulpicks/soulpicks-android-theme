@@ -33,4 +33,9 @@
         <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
         <item name="android:windowLightNavigationBar" tools:ignore="NewApi">false</item>
     </style>
+
+    <style name="Theme.Soulpicks.Onboarding" parent="Base.Theme.Soulpicks.Onboarding">
+        <item name="android:colorBackground">@color/black</item>
+    </style>
+
 </resources>

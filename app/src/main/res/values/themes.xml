@@ -17,6 +17,14 @@
     <!--Top level DayNight theme to be used in AndroidManifest.xml-->
     <style name="Theme.Soulpicks" parent="Base.Theme.Soulpicks" />
 
+    <style name="Theme.Soulpicks.Onboarding" parent="Base.Theme.Soulpicks.Onboarding">
+        <item name="android:colorBackground">@color/white</item>
+    </style>
+
+    <style name="Base.Theme.Soulpicks.Onboarding" parent="Base.Theme.Soulpicks">
+
+    </style>
+
     <!--Base custom theme which will be shared between both light and dark theme variants-->
     <style name="Base.Theme.Soulpicks" parent="Base.Theme.SoulpicksThemeBuilder">
         <!--Material color attributes (light theme) -->
@@ -40,7 +48,7 @@
         <!--"On" colors define how text, icons and strokes are colored in relation to the surface-->
         <!--on which they appear.-->
         <item name="colorOnPrimary">@color/onPrimary</item>
-<!--        <item name="colorOnSecondary">@color/onSecondary</item>-->
+        <!--        <item name="colorOnSecondary">@color/onSecondary</item>-->
         <item name="colorOnSecondary">@color/onPrimary</item>
         <item name="colorOnBackground">@color/onBackground</item>
         <item name="colorOnSurface">@color/onSurface</item>
@@ -70,7 +78,8 @@
 
 
         <!--Component styles-->
-        <item name="materialAlertDialogTheme">@style/ThemeOverlay.MaterialComponents.Dialog.Alert</item>
+        <item name="materialAlertDialogTheme">@style/ThemeOverlay.MaterialComponents.Dialog.Alert
+        </item>
         <item name="bottomSheetDialogTheme">@style/ThemeOverlay.Soulpicks.BottomSheetDialog</item>
         <item name="navigationViewStyle">@style/Widget.Soulpicks.NavigationView</item>
         <item name="toolbarStyle">@style/Widget.MaterialComponents.Toolbar.Surface</item>
@@ -85,6 +94,9 @@
         <item name="android:searchViewStyle">@style/Widget.Soulpicks.SearchView</item>
         <item name="switchStyle">@style/Widget.Soulpicks.Switch</item>
         <item name="checkboxStyle">@style/Widget.Soulpicks.Checkbox</item>
+        <item name="textInputStyle">@style/Widget.Soulpicks.TextInputLayout</item>
+        <item name="floatingActionButtonStyle">@style/Widget.Soulpicks.FloatingActionButton</item>
+        <item name="extendedFloatingActionButtonStyle">@style/Widget.Soulpicks.ExtendedFloatingActionButton</item>
     </style>
 
 

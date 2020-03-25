@@ -18,10 +18,13 @@
 
     <!--Components-->
 
+    <style name="Widget.Soulpicks.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="boxBackgroundColor">?android:attr/colorBackground</item>
+    </style>
+
     <style name="Widget.Soulpicks.Switch" parent="Widget.MaterialComponents.CompoundButton.Switch" />
 
     <style name="Widget.Soulpicks.Checkbox" parent="Widget.MaterialComponents.CompoundButton.CheckBox" />
-
 
     <style name="Widget.Soulpicks.Button" parent="Widget.MaterialComponents.Button">
         <item name="textAllCaps">false</item>
@@ -124,6 +127,17 @@
 
 
     <!-- CUSTOM FAB STYLING -->
+    <style name="Widget.Soulpicks.ExtendedFloatingActionButton" parent="Widget.MaterialComponents.ExtendedFloatingActionButton">
+        <item name="backgroundTint">?colorSurface</item>
+        <item name="iconTint">?colorPrimary</item>
+        <item name="android:textColor">?colorPrimary</item>
+    </style>
+
+    <style name="Widget.Soulpicks.FloatingActionButton" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="backgroundTint">?colorSurface</item>
+        <item name="tint">?colorPrimary</item>
+    </style>
+
     <style name="Widget.Soulpicks.AdvancedFabMenuStyle" parent="">
         <item name="menu_do_reveal">true</item>
         <item name="menu_progress_width">2dp</item>
@@ -157,8 +171,10 @@
     <!-- DIALOGS -->
 
     <style name="Theme.Soulpicks.SoulpicksAlertDialog" parent="Theme.MaterialComponents.Dialog.Alert">
-        <item name="android:windowTitleStyle">@style/TextAppearance.Soulpicks.AlertDialog.Title</item>
-        <item name="android:textAppearanceMedium">@style/TextAppearance.Soulpicks.AlertDialog.Text</item>
+        <item name="android:windowTitleStyle">@style/TextAppearance.Soulpicks.AlertDialog.Title
+        </item>
+        <item name="android:textAppearanceMedium">@style/TextAppearance.Soulpicks.AlertDialog.Text
+        </item>
     </style>
 
 </resources>
