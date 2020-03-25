@@ -161,6 +161,4 @@
         <item name="android:textAppearanceMedium">@style/TextAppearance.Soulpicks.AlertDialog.Text</item>
     </style>
 
-
-
 </resources>

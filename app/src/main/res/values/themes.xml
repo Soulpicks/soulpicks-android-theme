@@ -70,12 +70,10 @@
 
 
         <!--Component styles-->
-        <item name="materialAlertDialogTheme">@style/ThemeOverlay.MaterialComponents.Dialog.Alert
-        </item>
+        <item name="materialAlertDialogTheme">@style/ThemeOverlay.MaterialComponents.Dialog.Alert</item>
         <item name="bottomSheetDialogTheme">@style/ThemeOverlay.Soulpicks.BottomSheetDialog</item>
         <item name="navigationViewStyle">@style/Widget.Soulpicks.NavigationView</item>
-        <item name="toolbarStyle">@style/Widget.MaterialComponents.Toolbar.PrimarySurface</item>
-
+        <item name="toolbarStyle">@style/Widget.MaterialComponents.Toolbar.Surface</item>
 
         <item name="materialButtonStyle">@style/Widget.Soulpicks.Button</item>
         <item name="materialButtonOutlinedStyle">@style/Widget.Soulpicks.OutlinedButton</item>
