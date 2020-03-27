@@ -73,12 +73,27 @@
         app:layout_constraintStart_toEndOf="@+id/button_text"
         app:layout_constraintTop_toTopOf="@+id/button_text" />
 
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_checkable"
+        style="@style/Widget.Soulpicks.OutlinedButton.Checkable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/keyline_5"
+        android:layout_marginEnd="@dimen/keyline_2"
+        android:text="@string/cheackable_button"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/button_group"
+        app:layout_constraintTop_toBottomOf="@+id/button_filled" />
+
     <com.google.android.material.button.MaterialButtonToggleGroup
         android:id="@+id/button_group"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/keyline_5"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="@dimen/keyline_2"
+        app:layout_constraintStart_toEndOf="@id/button_checkable"
         app:layout_constraintTop_toBottomOf="@+id/button_filled">
 
         <Button
@@ -146,5 +161,6 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/button_text_disabled"
         app:layout_constraintTop_toTopOf="@+id/button_text_disabled" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

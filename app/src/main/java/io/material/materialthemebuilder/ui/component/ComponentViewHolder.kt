@@ -62,7 +62,17 @@ sealed class ComponentViewHolder(val view: View) : RecyclerView.ViewHolder(view)
 
     class ButtonComponentViewHolder(
             parent: ViewGroup
-    ) : ComponentViewHolder(inflate(parent, R.layout.component_buttons))
+    ) : ComponentViewHolder(inflate(parent, R.layout.component_buttons)){
+        private val checkableButton: MaterialButton = view.findViewById(R.id.button_checkable)
+        override fun bind(component: Component)
+        {
+            checkableButton.isCheckable = true
+            checkableButton.setOnClickListener {
+                val isChecked = checkableButton.isChecked
+                checkableButton.isChecked = !isChecked
+            }
+        }
+    }
 
     class FabComponentViewHolder(
             parent: ViewGroup

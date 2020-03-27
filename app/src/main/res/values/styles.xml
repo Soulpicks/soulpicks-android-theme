@@ -41,7 +41,7 @@
     <style name="Widget.Soulpicks.OutlinedButton.Checkable">
         <item name="android:textColor">@color/color_materialbuttoncheckable_text_selector</item>
         <item name="iconTint">@color/color_materialbuttoncheckable_text_selector</item>
-        <item name="strokeColor">@color/color_materialbuttoncheckable_ripple_selector</item>
+        <item name="strokeColor">@color/color_materialbuttoncheckable_text_selector</item>
         <item name="backgroundTint">@color/color_materialbuttoncheckable_background_selector</item>
         <item name="rippleColor">@color/color_materialbuttoncheckable_ripple_selector</item>
     </style>
@@ -55,18 +55,25 @@
         <item name="textAllCaps">false</item>
     </style>
 
+
     <style name="Widget.Soulpicks.Chip" parent="Widget.MaterialComponents.Chip.Action">
         <item name="checkedIconEnabled">false</item>
         <item name="chipIconSize">16dp</item>
         <item name="chipStrokeWidth">1dp</item>
         <item name="checkedIconVisible">false</item>
+        <item name="chipIconTint">@color/color_chip_text</item>
         <item name="chipStrokeColor">@color/color_chip_stroke</item>
         <item name="chipBackgroundColor">@color/color_chip</item>
         <item name="enforceTextAppearance">true</item>
         <item name="closeIconVisible">false</item>
         <item name="android:textColor">@color/color_chip_text</item>
-        <item name="iconStartPadding">4dp</item>
+        <item name="iconStartPadding">8dp</item>
         <item name="iconEndPadding">-4dp</item>
+        <item name="android:checkable">true</item>
+    </style>
+
+    <style name="Widget.Soulpicks.Chip.Square">
+        <item name="chipCornerRadius">8dp</item>
     </style>
 
     <style name="Widget.Soulpicks.Chip.Button">
@@ -74,7 +81,8 @@
         <item name="chipEndPadding">16dp</item>
         <item name="chipStartPadding">16dp</item>
         <item name="chipIconTint">@color/iconColor</item>
-        <item name="android:gravity">center_vertical|start</item>
+        <item name="android:checkable">false</item>
+        <item name="android:gravity">center_vertical</item>
     </style>
 
     <style name="Widget.Soulpicks.Chip.Green">
@@ -83,7 +91,7 @@
         <item name="android:textColor">@color/white</item>
         <item name="chipIconSize">12dp</item>
         <item name="closeIconTint">@color/white</item>
-        <item name="android:gravity">center_vertical|start</item>
+        <item name="android:gravity">center_vertical</item>
     </style>
 
 
@@ -106,8 +114,7 @@
     <style name="ThemeOverlay.Soulpicks.BottomSheetDialog" parent="ThemeOverlay.MaterialComponents.Dialog">
         <item name="android:windowIsFloating">false</item>
         <item name="android:windowBackground">@android:color/transparent</item>
-        <item name="android:windowAnimationStyle">@style/Animation.MyTheme.BottomSheet.Modal</item>
-        <item name="android:statusBarColor">@android:color/transparent</item>
+        <!--        <item name="android:windowAnimationStyle">@style/Animation.MyTheme.BottomSheet.Modal</item>-->
         <item name="bottomSheetStyle">@style/Widget.MyTheme.BottomSheet.Modal</item>
         <item name="android:navigationBarColor">?attr/colorSurface</item>
         <item name="android:navigationBarDividerColor" tools:ignore="NewApi">
@@ -128,14 +135,14 @@
 
     <!-- CUSTOM FAB STYLING -->
     <style name="Widget.Soulpicks.ExtendedFloatingActionButton" parent="Widget.MaterialComponents.ExtendedFloatingActionButton">
-        <item name="backgroundTint">?colorSurface</item>
-        <item name="iconTint">?colorPrimary</item>
-        <item name="android:textColor">?colorPrimary</item>
+        <item name="backgroundTint">@color/surface</item>
+        <item name="iconTint">@color/primary</item>
+        <item name="android:textColor">@color/primary</item>
     </style>
 
     <style name="Widget.Soulpicks.FloatingActionButton" parent="Widget.MaterialComponents.FloatingActionButton">
-        <item name="backgroundTint">?colorSurface</item>
-        <item name="tint">?colorPrimary</item>
+        <item name="backgroundTint">@color/surface</item>
+        <item name="tint">@color/primary</item>
     </style>
 
     <style name="Widget.Soulpicks.AdvancedFabMenuStyle" parent="">

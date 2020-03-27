@@ -2,9 +2,9 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:color="@color/white" android:state_enabled="true" android:state_selected="true"/>
     <!-- 87% opacity. -->
-    <item android:color="@color/chipBorder" android:state_enabled="true"/>
+    <item android:color="@color/chipText" android:state_enabled="true"/>
     <!-- 38% of 87% opacity. -->
-    <item android:color="@color/chipBorder"/>
+    <item android:color="@color/chipText"/>
 
 
 </selector>

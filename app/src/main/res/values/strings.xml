@@ -114,4 +114,7 @@
     <string name="searchbar_title">SearchView</string>
     <string name="fabs_label_title">Fab menus</string>
     <string name="chip_button_title">Button</string>
+    <string name="cheackable_button">Checkable</string>
+    <string name="chup_square_title">Square</string>
+    <string name="chip_button_green">Green</string>
 </resources>

@@ -69,11 +69,11 @@
         <item name="textAppearanceCaption">@style/TextAppearance.Soulpicks.Caption</item>
         <item name="textAppearanceOverline">@style/TextAppearance.Soulpicks.Overline</item>
         <!--Material shape attributes-->
-        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.MyTheme.SmallComponent
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.Soulpicks.SmallComponent
         </item>
-        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.MyTheme.MediumComponent
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.Soulpicks.MediumComponent
         </item>
-        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.MyTheme.LargeComponent
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.Soulpicks.LargeComponent
         </item>
 
 
