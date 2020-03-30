@@ -54,6 +54,16 @@
         <item name="colorOnSurface">@color/onSurface</item>
         <item name="colorOnError">@color/onError</item>
 
+
+        <!-- Text colors -->
+        <item name="android:textColorPrimary">@color/onBackground</item>
+        <item name="android:textColorSecondary">@color/steel</item>
+
+        <!-- i.e. Edit text cursor color -->
+        <!--        <item name="android:colorControlActivated">@color/colorControlActivated</item>-->
+        <!-- i.e. Ripple effect color -->
+        <!--        <item name="android:colorControlHighlight">@color/colorControlHighlight</item>-->
+
         <!--Material type attributes-->
         <item name="textAppearanceHeadline1">@style/TextAppearance.Soulpicks.Headline1</item>
         <item name="textAppearanceHeadline2">@style/TextAppearance.Soulpicks.Headline2</item>
@@ -97,6 +107,7 @@
         <item name="textInputStyle">@style/Widget.Soulpicks.TextInputLayout</item>
         <item name="floatingActionButtonStyle">@style/Widget.Soulpicks.FloatingActionButton</item>
         <item name="extendedFloatingActionButtonStyle">@style/Widget.Soulpicks.ExtendedFloatingActionButton</item>
+        <item name="materialCardViewStyle">@style/Widget.Soulpicks.CardView</item>
     </style>
 
 

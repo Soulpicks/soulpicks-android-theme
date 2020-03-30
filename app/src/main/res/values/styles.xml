@@ -127,6 +127,13 @@
         <item name="shapeAppearanceOverlay">?attr/shapeAppearanceLargeComponent</item>
     </style>
 
+
+    <!-- CardView -->
+
+    <style name="Widget.Soulpicks.CardView" parent="Widget.MaterialComponents.CardView">
+
+    </style>
+
     <!--Navigation Drawer-->
     <style name="Widget.Soulpicks.NavigationView" parent="Widget.MaterialComponents.NavigationView">
         <item name="itemTextAppearance">?attr/textAppearanceBody2</item>
