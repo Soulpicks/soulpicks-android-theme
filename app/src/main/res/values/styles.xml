@@ -109,6 +109,10 @@
         <item name="android:textSize">14sp</item>
     </style>
 
+    <style name="Widget.Soulpicks.SearchView.SmallSize" parent="Widget.AppCompat.SearchView">
+        <item name="android:textSize">14sp</item>
+    </style>
+
 
     <!-- Bottom Navigation -->
     <style name="Widget.Soulpicks.BottomNavigation" parent="Widget.MaterialComponents.BottomNavigationView">
