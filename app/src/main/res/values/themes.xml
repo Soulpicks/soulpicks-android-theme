@@ -93,7 +93,7 @@
         <item name="bottomSheetDialogTheme">@style/ThemeOverlay.Soulpicks.BottomSheetDialog</item>
         <item name="navigationViewStyle">@style/Widget.Soulpicks.NavigationView</item>
         <item name="toolbarStyle">@style/Widget.MaterialComponents.Toolbar.Surface</item>
-
+        <item name="appBarLayoutStyle">@style/Widget.MaterialComponents.AppBarLayout.Surface</item>
         <item name="materialButtonStyle">@style/Widget.Soulpicks.Button</item>
         <item name="materialButtonOutlinedStyle">@style/Widget.Soulpicks.OutlinedButton</item>
         <item name="borderlessButtonStyle">@style/Widget.Soulpicks.TextButton</item>
@@ -106,7 +106,9 @@
         <item name="checkboxStyle">@style/Widget.Soulpicks.Checkbox</item>
         <item name="textInputStyle">@style/Widget.Soulpicks.TextInputLayout</item>
         <item name="floatingActionButtonStyle">@style/Widget.Soulpicks.FloatingActionButton</item>
-        <item name="extendedFloatingActionButtonStyle">@style/Widget.Soulpicks.ExtendedFloatingActionButton</item>
+        <item name="extendedFloatingActionButtonStyle">
+            @style/Widget.Soulpicks.ExtendedFloatingActionButton
+        </item>
         <item name="materialCardViewStyle">@style/Widget.Soulpicks.CardView</item>
     </style>
 

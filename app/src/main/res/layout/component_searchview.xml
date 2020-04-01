@@ -17,7 +17,6 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.appcompat.widget.SearchView
-        style="?searchViewStyle"
         android:background="@drawable/bg_search"
         android:id="@+id/searchview"
         android:theme="@style/Widget.Soulpicks.SearchView.SmallSize"

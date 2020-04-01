@@ -52,7 +52,7 @@
     </style>
 
     <style name="TextAppearance.Soulpicks.TabLayout" parent="@style/TextAppearance.MaterialComponents.Button">
-<!--        <item name="textAllCaps">false</item>-->
+        <!--        <item name="textAllCaps">false</item>-->
     </style>
 
 
@@ -66,6 +66,7 @@
         <item name="chipBackgroundColor">@color/color_chip</item>
         <item name="enforceTextAppearance">true</item>
         <item name="closeIconVisible">false</item>
+        <item name="chipMinTouchTargetSize">0dp</item>
         <item name="android:textColor">@color/color_chip_text</item>
         <item name="iconStartPadding">8dp</item>
         <item name="iconEndPadding">-4dp</item>
@@ -85,9 +86,9 @@
         <item name="android:gravity">center_vertical</item>
     </style>
 
-    <style name="Widget.Soulpicks.Chip.Green">
-        <item name="chipBackgroundColor">@color/secondaryVariant</item>
-        <item name="chipStrokeColor">@color/secondaryVariant</item>
+    <style name="Widget.Soulpicks.Chip.Checked">
+        <item name="chipBackgroundColor">@color/primary</item>
+        <item name="chipStrokeColor">@color/primary</item>
         <item name="android:textColor">@color/white</item>
         <item name="chipIconTint">@color/white</item>
         <item name="chipIconSize">12dp</item>
@@ -125,6 +126,7 @@
     <style name="ThemeOverlay.Soulpicks.BottomSheetDialog" parent="ThemeOverlay.MaterialComponents.Dialog">
         <item name="android:windowIsFloating">false</item>
         <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
         <!--        <item name="android:windowAnimationStyle">@style/Animation.MyTheme.BottomSheet.Modal</item>-->
         <item name="bottomSheetStyle">@style/Widget.MyTheme.BottomSheet.Modal</item>
         <item name="android:navigationBarColor">?attr/colorSurface</item>
@@ -153,14 +155,14 @@
 
     <!-- CUSTOM FAB STYLING -->
     <style name="Widget.Soulpicks.ExtendedFloatingActionButton" parent="Widget.MaterialComponents.ExtendedFloatingActionButton">
-        <item name="backgroundTint">@color/surface</item>
-        <item name="iconTint">@color/primary</item>
-        <item name="android:textColor">@color/primary</item>
+        <item name="backgroundTint">?attr/colorSurface</item>
+        <item name="iconTint">?attr/colorPrimary</item>
+        <item name="android:textColor">?attr/colorPrimary</item>
     </style>
 
     <style name="Widget.Soulpicks.FloatingActionButton" parent="Widget.MaterialComponents.FloatingActionButton">
-        <item name="backgroundTint">@color/surface</item>
-        <item name="tint">@color/primary</item>
+        <item name="backgroundTint">?attr/colorSurface</item>
+        <item name="tint">?attr/colorPrimary</item>
     </style>
 
     <style name="Widget.Soulpicks.AdvancedFabMenuStyle" parent="">
