@@ -24,7 +24,9 @@
 
     <style name="Widget.Soulpicks.Switch" parent="Widget.MaterialComponents.CompoundButton.Switch" />
 
-    <style name="Widget.Soulpicks.Checkbox" parent="Widget.MaterialComponents.CompoundButton.CheckBox" />
+    <style name="Widget.Soulpicks.Checkbox" parent="Widget.MaterialComponents.CompoundButton.CheckBox">
+        <item name="android:textColor">@color/material_on_surface_emphasis_medium</item>
+    </style>
 
     <style name="Widget.Soulpicks.Button" parent="Widget.MaterialComponents.Button">
         <item name="textAllCaps">false</item>
@@ -197,7 +199,7 @@
 
     <!-- DIALOGS -->
 
-    <style name="Theme.Soulpicks.SoulpicksAlertDialog" parent="Theme.MaterialComponents.Dialog.Alert">
+    <style name="Theme.Soulpicks.SoulpicksAlertDialog" parent="Theme.MaterialComponents.Light.Dialog.Alert">
         <item name="android:windowTitleStyle">@style/TextAppearance.Soulpicks.AlertDialog.Title
         </item>
         <item name="android:textAppearanceMedium">@style/TextAppearance.Soulpicks.AlertDialog.Text
