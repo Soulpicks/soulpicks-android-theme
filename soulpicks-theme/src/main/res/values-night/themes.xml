@@ -34,8 +34,8 @@
         <item name="android:windowLightNavigationBar" tools:ignore="NewApi">false</item>
     </style>
 
-    <style name="Theme.Soulpicks.Onboarding" parent="Base.Theme.Soulpicks.Onboarding">
+
+    <style name="Theme.Soulpicks.Onboarding" parent="Theme.Soulpicks">
         <item name="android:colorBackground">@color/black</item>
     </style>
-
 </resources>
