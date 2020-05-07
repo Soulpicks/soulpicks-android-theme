@@ -47,6 +47,8 @@
     <color name="transparent">#00000000</color>
     <color name="backgroundGray">#f9f9f9</color>
 
+    <color name="surfaceDark">#1C1C1E</color>
+    <color name="onSurfaceDark">#CCCCCC</color>
 
     <!-- GRAYS - TO BE REVIEWED -->
     <color name="steel">#6f7b91</color>
@@ -101,7 +103,6 @@
     <color name="onSurface">@color/black</color>
     <color name="onError">@color/white</color>
     <color name="chipBorder">@color/gray</color>
-    <color name="chipText">@color/steel</color>
     <color name="iconColor">@color/steel</color>
 
 

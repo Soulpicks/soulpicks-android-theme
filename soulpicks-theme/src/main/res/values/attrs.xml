@@ -5,4 +5,7 @@
     <attr name="colorFillColor" format="color"/>
     <attr name="colorStrokeColor" format="color"/>
 
+    <attr name="bottomNavTextColor" format="color"/>
+    <attr name="chipHighlightColor" format="color"/>
+
 </resources>

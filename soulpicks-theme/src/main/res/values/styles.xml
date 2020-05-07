@@ -146,7 +146,7 @@
     <!-- CardView -->
 
     <style name="Widget.Soulpicks.CardView" parent="Widget.MaterialComponents.CardView">
-
+        <item name="cardBackgroundColor">?attr/colorSurface</item>
     </style>
 
     <!--Navigation Drawer-->

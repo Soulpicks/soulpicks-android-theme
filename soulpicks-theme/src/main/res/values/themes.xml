@@ -50,6 +50,9 @@
         <item name="colorOnSurface">@color/onSurface</item>
         <item name="colorOnError">@color/onError</item>
 
+        <item name="bottomNavTextColor">@color/steel</item>
+        <item name="chipHighlightColor">@color/steel</item>
+
 
         <!-- Text colors -->
         <item name="android:textColorPrimary">?attr/colorOnBackground</item>
